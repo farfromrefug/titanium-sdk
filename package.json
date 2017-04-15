@@ -1,28 +1,74 @@
 {
-	"name": "titanium-sdk",
-	"description": "Appcelerator Titanium SDK Library",
-	"keywords": [
-		"appcelerator",
-		"titanium",
-		"mobile"
-	],
-	"version": "0.1.0",
-	"author": {
-		"name": "Appcelerator, Inc.",
-		"email": "info@appcelerator.com"
-	},
-	"maintainers": [
-		{"name": "Chris Barber", "email": "cbarber@appcelerator.com"}
-	],
-	"license": "Apache Public License v2",
-	"main": "./lib/titanium",
-	"directories": {
-		"lib": "./lib"
-	},
-	"engines": {
-		"node": ">=0.6.6"
-	},
-	"scripts": {
-		"test": "node tests/run.js"
-	}
+  "_args": [
+    [
+      "git://github.com/farfromrefug/titanium-sdk.git",
+      "/Volumes/data/dev/titanium/titanium_mobile"
+    ]
+  ],
+  "_from": "git://github.com/farfromrefug/titanium-sdk.git",
+  "_id": "titanium-sdk@0.1.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/titanium-sdk",
+  "_phantomChildren": {},
+  "_requested": {
+    "hosted": {
+      "directUrl": "https://raw.githubusercontent.com/farfromrefug/titanium-sdk/master/package.json",
+      "gitUrl": "git://github.com/farfromrefug/titanium-sdk.git",
+      "httpsUrl": "git+https://github.com/farfromrefug/titanium-sdk.git",
+      "shortcut": "github:farfromrefug/titanium-sdk",
+      "ssh": "git@github.com:farfromrefug/titanium-sdk.git",
+      "sshUrl": "git+ssh://git@github.com/farfromrefug/titanium-sdk.git",
+      "type": "github"
+    },
+    "name": null,
+    "raw": "git://github.com/farfromrefug/titanium-sdk.git",
+    "rawSpec": "git://github.com/farfromrefug/titanium-sdk.git",
+    "scope": null,
+    "spec": "git://github.com/farfromrefug/titanium-sdk.git",
+    "type": "hosted"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git://github.com/farfromrefug/titanium-sdk.git#3b2b4f57d9da312c5daee3cb63eebd3c9a30431e",
+  "_shasum": "445a7fc13dc1624cbe165ca49f6a8f54e401536f",
+  "_shrinkwrap": null,
+  "_spec": "git://github.com/farfromrefug/titanium-sdk.git",
+  "_where": "/Volumes/data/dev/titanium/titanium_mobile",
+  "author": {
+    "email": "info@appcelerator.com",
+    "name": "Appcelerator, Inc."
+  },
+  "dependencies": {},
+  "description": "Appcelerator Titanium SDK Library",
+  "devDependencies": {},
+  "directories": {
+    "lib": "./lib"
+  },
+  "engines": {
+    "node": ">=0.6.6"
+  },
+  "gitHead": "3b2b4f57d9da312c5daee3cb63eebd3c9a30431e",
+  "keywords": [
+    "appcelerator",
+    "titanium",
+    "mobile"
+  ],
+  "license": "Apache Public License v2",
+  "main": "./lib/titanium",
+  "maintainers": [
+    {
+      "email": "cbarber@appcelerator.com",
+      "name": "Chris Barber"
+    }
+  ],
+  "name": "titanium-sdk",
+  "optionalDependencies": {},
+  "readme": "## Titanium-SDK\n\nThis is the Titanium SDK common library used for all SDK specific CLI commands.\n\n## License\n\nThis project is open source and provided under the Apache Public License (version 2). Please make sure you see the `LICENSE` file\nincluded in this distribution for more details on the license.  Also, please take notice of the privacy notice at the end of the file.\n\n#### (C) Copyright 2012, [Appcelerator](http://www.appcelerator.com/) Inc. All Rights Reserved.\n",
+  "readmeFilename": "README.md",
+  "scripts": {
+    "test": "node tests/run.js"
+  },
+  "version": "0.1.0"
 }
